@@ -16,5 +16,5 @@ jobs:
         echo "----------Snyk Monitor-----------"
         ./snyk monitor --all-projects
         echo "----------Snyk Scanning and failing build in CI-----------"
-        ./snyk test --all-projects --severity-threshold=high --fail-on=upgradable
+        ./snyk test --all-projects
 
